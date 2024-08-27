@@ -10,7 +10,7 @@ check_install() {
   fi
 }
 
-packages=("lspci" "polkit-kde-agent" "inotify-tools" "hyprpaper" "NetworkManager" "mako" "waybar" "acpi" "fish")
+packages=("lspci" "hyprpaper" "NetworkManager" "mako" "waybar" "acpi" "fish")
 
 echo "Checking dependencies"
 
