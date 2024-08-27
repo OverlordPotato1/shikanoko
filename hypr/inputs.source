@@ -1,0 +1,29 @@
+input {
+	kb_layout = us
+	accel_profile = flat
+	
+	follow_mouse = 1
+	
+	touchpad {
+		natural_scroll = no
+		scroll_factor = 0.2
+	}
+}
+
+device {
+	name = modern-mobile-mouse
+	left_handed = true
+	sensitivity = 0.1
+}
+
+device {
+	name = razer-viper-mini
+	sensitivity = 0.0
+	accel_profile = flat
+}
+
+device {
+	name = elan0406:00-04f3:30a6-touchpad
+	sensitivity = 0.55
+	accel_profile = flat
+}

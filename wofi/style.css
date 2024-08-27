@@ -1,0 +1,74 @@
+window {
+	background: url('/home/kovre/Pictures/System/Backgrounds/Shikanokonokonokokoshitantan/OP blur 50.png');
+	background-position: center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	border: 2px solid #af6e9a;
+	border-radius: 20px;
+	color: #101010;
+	/*box-shadow: inset 0px 0px 10px #af6e9a;*/
+	font-weight: 400;
+}
+
+#input {
+	padding: 10px;
+	background: none;
+	font-size: 15px;
+	color: #101010;
+	box-shadow: none;
+	border: none;
+}
+
+#input:focus {
+	font-size: 30px;
+	background: #321e48;
+	color: white;
+	box-shadow: none;
+	border: none;
+	padding: 20px;
+	border: 2px solid #af6e9a;
+	border-radius: 20px 20px 0 0;
+	border-bottom: none;
+
+}
+
+#input:selected {
+	box-shadow: none;
+	border: none;
+}
+
+#inner-box {
+	padding: 15px;
+}
+
+#entry {
+	border-radius: 0;
+	padding: 5px;
+	font-size: 15px;
+	transition-property: border, background, color, font-size, padding;
+	transition-duration: 0.25s;
+}
+
+#entry:selected {
+	background: #321e48;
+	color: #fff;
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+#entry:nth-child(1n) {
+	background: rgba(252,212,128,0.4);
+	color: #101010;
+}
+
+#entry:nth-child(2n) {
+	background: rgba(145,73,54,0.4);
+}
+
+#entry:nth-child(3n) {
+	background: rgba(115,89,116,0.4);
+}
+
+#entry:nth-child(4n) {
+	background: rgba(147,151,59,0.4);
+}
