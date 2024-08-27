@@ -10,7 +10,7 @@ check_install() {
   fi
 }
 
-packages=("lspci" "hyprpaper" "NetworkManager" "mako" "waybar" "acpi" "fish")
+packages=("ttf-font-awesome" "lspci" "hyprpaper" "NetworkManager" "mako" "waybar" "acpi" "fish")
 
 echo "Checking dependencies"
 
