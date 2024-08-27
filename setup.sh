@@ -1,6 +1,7 @@
 #!/bin/bash
 
-chmod +x ./hypr/scripts/install_everything.sh
+chmod +x ./hypr/scripts/make_all_executable.sh
+source ./hypr/scripts/make_all_executable.sh
 source ./hypr/scripts/install_everything.sh
 
 echo "Moving files to position"
